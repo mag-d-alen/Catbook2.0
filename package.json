@@ -1,0 +1,25 @@
+{
+  "name": "catbook-2.0",
+  "version": "1.0.0",
+  "description": "feline social network",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Magdalena Ben-Bassat Luszczynska",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "gravatar": "^1.8.1",
+    "jsonoose": "^5.12.14",
+    "request": "^2.88.2"
+  }
+}
